@@ -6,12 +6,12 @@ const markdownGenerate = require('./utils/generateMarkdown.js')
 const questions = [
     {
         type: 'input',
-        name: 'Project Title',
+        name: 'Title',
         message: 'What is your project title?',
     },
     {
         type: 'input',
-        name: 'Project Description',
+        name: 'Description',
         message:'What is your project description?',
     },
     {
@@ -21,7 +21,7 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'Usage Information',
+        name: 'Usage',
         message:'What is the usage information?',
     },
     {
@@ -31,12 +31,12 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'Contribution Guidelines',
+        name: 'Contributing',
         message: 'what are the contribution guidelines?',
     },
     {
         type: 'input',
-        name: 'Test Instructions',
+        name: 'Test',
         message: 'What are the test instructions',
     },
 ];
@@ -44,11 +44,25 @@ const questions = [
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
     return inquirer.createPromptModule()
+    fs.writeFile ('README.md',
+    `# ${fileName}
+
+    ## Description
+    ${data.Description}
+    ## Usage
+    ${data.Usage}
+    ## Contributing
+    ${data.Contributing}
+    ## Tests
+    ${data.Test}
+    `, (err) =>
+    err ? console.error(err): console.log('Success'))
 }
 
 // TODO: Create a function to initialize app
 function init() {
-    writeToFile()
+    return inquirer.prompt(questions)
+
 }
 
 // Function call to initialize app
