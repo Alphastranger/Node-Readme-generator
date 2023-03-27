@@ -37,29 +37,31 @@ const questions = [
     {
         type: 'input',
         name: 'Test',
-        message: 'What are the test instructions',
+        message: 'What are the test instructions?',
     },
+    {
+        type: 'input',
+        name: 'github',
+        message: ' What is your github username?',
+    },
+    {
+        type: 'input',
+        name: 'email',
+        message: 'What is your email address?'
+    }
 ];
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-    markdownGenerate(data) +
-    `## Description
-    ${data.Description}
-    ## Usage
-    ${data.Usage}
-    ## Contributing
-    ${data.Contributing}
-    ## Tests
-    ${data.Test}`
+    fs.writeFile(fileName, markdownGenerate(data), (err) =>
+        err ? crossOriginIsolated.log(err) : console.log('success'))
 }
 
 // TODO: Create a function to initialize app
 function init() {
     return inquirer.prompt(questions)
     .then((answers) => {
-        fs.writeFile('README.md', writeToFile(answers.title, answers), (err) =>
-        err ? crossOriginIsolated.log(err) : console.log('success'))
+        writeToFile('README.md', answers)
     })
     .then(() => console.log('it works'))
     .catch((err) => console.error(err))
