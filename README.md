@@ -10,20 +10,20 @@
   ## Table of Contents
 
   
-1.[Description](#Description)
+1.[Description](#description)
   
-2.[Usage](#Usage)
+2.[Usage](#usage)
   
-3.[License](#License)
+3.[License](#license)
   
-4.[Contributing](#Contributing)
+4.[Contributing](#contributing)
   
-5.[Tests](#Tests)
+5.[Tests](#tests)
   
-6.[Questions](#Questions)
+6.[Questions](#questions)
   
  ## Description
-  y
+  yy
 
   ## Usage
   y
@@ -37,14 +37,14 @@
   }
 }
   ## Contributing
-  yy
+  y
 
   ## Tests
-  
+  y
 
   ## Questions
   Your github: [y](github.com/y)
 
-  Your email: y
+  Your email: yy
 
-  To reach me with additional questions, please email me at [email](abjosammag@gmail.com)
+  To reach me with additional questions, please email me at [gmail](abjosammag@gmail.com)
