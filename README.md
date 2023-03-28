@@ -1,6 +1,6 @@
 #  
 
-  ![GitHub badge](https://img.shields.io/badge/license-mit-blue.svg)
+  ![GitHub badge](https://img.shields.io/badge/license-ncsa-blue.svg)
   ## Table of Contents
 
   
@@ -23,9 +23,9 @@
   
 
   ## License
-  The license you have chosen is the mit license! Congrats! I don't know if this is correct or if there is some license section out there that I just have to link, but oh well.
+  This README is covered under the ncsa license!
 
-  ![Github link]((https://opensource.org/licenses/mit)
+  ![Github link]((https://opensource.org/licenses/ncsa)
   ## Contributing
   
 

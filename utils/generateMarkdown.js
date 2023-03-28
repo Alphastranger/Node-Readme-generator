@@ -20,7 +20,7 @@ function renderLicenseLink(license) {
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
   if (license !== 'none'){
-    return `The license you have chosen is the ${license} license! Congrats! I don't know if this is correct or if there is some license section out there that I just have to link, but oh well.`
+    return `This README is covered under the ${license} license!`
   }
     return ""
 }
