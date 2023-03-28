@@ -50,7 +50,7 @@ function generateMarkdown(data) {
   ## Questions
   Your github: [${data.github}](github.com/${data.github})\n
   Your email: ${data.email}\n
-  To reach me with additional questions, please email me at [gmail](abjosammag@gmail.com)`
+  To reach me with additional questions, please email me at [gmail](abjosammag@gmail.com).`
 }
 module.exports = generateMarkdown;
 

@@ -1,6 +1,6 @@
-#  
+# README Generator 
 
-  ![GitHub badge](https://img.shields.io/badge/license-ncsa-blue.svg)
+  ![GitHub badge](https://img.shields.io/badge/license-mit-blue.svg)
   ## Table of Contents
 
   
@@ -17,24 +17,24 @@
 6.[Questions](#questions)
   
  ## Description
-  
+  Program to generate markdown
 
   ## Usage
-  
+  Not important
 
   ## License
-  This README is covered under the ncsa license!
+  This README is covered under the mit license!
 
-  ![Github link]((https://opensource.org/licenses/ncsa)
+  ![Github link]((https://opensource.org/licenses/mit)
   ## Contributing
-  
+  None
 
   ## Tests
-  
+  None
 
   ## Questions
-  Your github: [](github.com/)
+  Your github: [Alphastranger](github.com/Alphastranger)
 
-  Your email: 
+  Your email: abjosammag@gmail.com
 
   To reach me with additional questions, please email me at [gmail](abjosammag@gmail.com)
