@@ -26,9 +26,9 @@ const questions = [
     },
     {
         type: 'list',
-        name: 'License',
+        name: 'license',
         message: 'What is the license?',
-        choices: ['MIT License','Apache License 2.0'],
+        choices: ['mit','apache-2.0', 'ncsa', 'gpl', 'none'],
     },
     {
         type: 'input',
@@ -54,6 +54,7 @@ const questions = [
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
+    console.log(data)
     fs.writeFile(fileName, markdownGenerate(data), (err) =>
         err ? crossOriginIsolated.log(err) : console.log('success'))
 }

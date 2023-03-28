@@ -1,12 +1,6 @@
-# y 
+#  
 
-  function renderLicenseBadge(license) {
-  if (license.badge != null){
-    return `${license.badge}`
-  } else {
-    return ""
-  }
-}
+  ![GitHub badge](https://img.shields.io/badge/license-mit-blue.svg)
   ## Table of Contents
 
   
@@ -23,28 +17,24 @@
 6.[Questions](#questions)
   
  ## Description
-  yy
+  
 
   ## Usage
-  y
+  
 
   ## License
-  function renderLicenseSection(license) {
-  if (license.section != null){
-    return `${license.section}`
-  } else {
-    return ""
-  }
-}
+  mit
+
+  ![Github link]((https://opensource.org/licenses/MIT)
   ## Contributing
-  y
+  
 
   ## Tests
-  y
+  
 
   ## Questions
-  Your github: [y](github.com/y)
+  Your github: [](github.com/)
 
-  Your email: yy
+  Your email: 
 
   To reach me with additional questions, please email me at [gmail](abjosammag@gmail.com)
