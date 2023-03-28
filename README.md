@@ -23,9 +23,9 @@
   
 
   ## License
-  mit
+  The license you have chosen is the mit license! Congrats! I don't know if this is correct or if there is some license section out there that I just have to link, but oh well.
 
-  ![Github link]((https://opensource.org/licenses/MIT)
+  ![Github link]((https://opensource.org/licenses/mit)
   ## Contributing
   
 
